@@ -1,0 +1,22 @@
+
+unset key
+unset tics
+
+unset border
+set pm3d 
+
+
+unset colorbox
+ 
+set xrange[-80:580]
+set yrange[0:500]
+
+n=22000
+
+do for [i=0:n:10]{
+
+p sprintf('%d.dat',i) matrix with image
+     
+
+pause 0.01
+} 
