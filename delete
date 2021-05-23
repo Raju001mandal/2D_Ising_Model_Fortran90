@@ -1,0 +1,2 @@
+find . -name "*.dat" -type f -delete
+
